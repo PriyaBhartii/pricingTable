@@ -1,0 +1,55 @@
+*{ box-sizing: border-box;}
+
+.columns{
+           float:left;
+            width: 33.3%;
+            padding: 8px;
+}
+.price { list-style-type: none;
+        border:1px solid #eee;
+        margin:0;
+        padding:0;
+        -webkit-transition:0.3s;
+        transition: 0.3s;
+}
+.price:hover{ box-shadow: 0 8px 50px 0
+rgba(0,0,0,0.2)}
+
+.price.header{ background-color: #111;
+color:white;
+font-size: 25px;
+}
+
+.price li{ border-bottom: 1px solid #eee;
+           padding:20px;
+           text-align: center;}
+
+.price.color{ background-color: #eee;
+font-size: 20px;}
+
+.button{ background-color: #5fe3d4;
+            border-radius: 6px;
+            border:none;
+            color:black;
+            padding:10px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+}
+.button:hover{
+   background-color: white;
+   color: black;
+   border: solid 1px black;
+}
+.image{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+img{
+  height: 500px;
+
+}
+body{
+  overflow: hidden;
+}
